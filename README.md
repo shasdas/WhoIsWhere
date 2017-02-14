@@ -23,4 +23,4 @@
 	
 	A set of dummy data would get published in 5 seconds interval to pubnub channel to simulate the visualization.
 
-### Mobile version using React-Native is availabke here - [React-Native-WhoIsWhere](https://github.com/shasdas/React-Native-WhoIsWhere/tree/master)
+### Mobile version using React-Native is available here - [React-Native-WhoIsWhere](https://github.com/shasdas/React-Native-WhoIsWhere/tree/master)
