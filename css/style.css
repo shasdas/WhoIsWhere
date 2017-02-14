@@ -1,0 +1,99 @@
+#canvas {
+	width: 600px;
+	height: 400px;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: grey;
+    shape-rendering: crispEdges;
+	stroke-width: 2px
+}
+
+.axis.worker-label {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.quadrant_border {
+	stroke: grey;
+	fill: none;
+	shape-rendering: crispEdges;
+	stroke-width: 2px
+}
+
+.circle {
+	fill: orange;
+}
+
+.circle-hover {
+	fill: blue;
+	cursor: pointer;
+}
+
+.circle-selected {
+	fill: darkblue;
+}
+
+.worker-label {
+	font-size: 10px;
+	font-weight: bold
+}
+
+.worker-label {
+	font-size: 10px;
+	font-weight: bold
+}
+
+.worker-label-hover {
+	fill: blue;
+	cursor: pointer;
+}
+
+.worker-label-selected {
+	fill: darkblue;
+}
+
+.thumbnails {
+	margin-top: 10px;
+}
+
+.well {
+	padding: 0px;
+}
+
+.sidebar-inner {
+	padding: 20px;
+}
+
+img {
+	vertical-align: baseline;
+}
+
+.divider {
+	stroke: grey;
+	fill: none;
+	shape-rendering: crispEdges;
+	stroke-width: 2px
+}
+
+.quad-label {
+	font-size: 15px;
+	font-weight: bold;
+	fill: Lightgrey;
+}
+
+.tooltip {                                                        /* NEW */
+        background: #eee;                                               /* NEW */
+        box-shadow: 0 0 5px #999999;                                    /* NEW */
+        color: #333;                                                    /* NEW */
+        /*display: none; */                                                 /* NEW */
+        font-size: 12px;                                                /* NEW */
+        left: 130px;                                                    /* NEW */
+        padding: 10px;                                                  /* NEW */
+        position: absolute;                                             /* NEW */
+        text-align: center;                                             /* NEW */
+        top: 95px;                                                      /* NEW */
+        width: 80px;                                                    /* NEW */
+        z-index: 10;                                                    /* NEW */
+      } 
