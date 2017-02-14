@@ -8,7 +8,8 @@
 	Each box is representing workstation - WS-1, WS-2, WS-3 ...
 	Orange circles are worker named WK-1, WK-2, WK-3 ....
 	Wearables could stream data to pubnub subscription via gateway.
-	Pubnub listener gets notified on streamed data which would get plotted using D3 to give a picture of workers moving around workstations at any point in time.
+	Pubnub listener gets notified on streamed data which would get 
+	plotted using D3 to give a picture of workers moving around workstations at any point in time.
 	
 ### SetUp
 
@@ -20,4 +21,4 @@
         subscribeKey : '<PUT_YOUR_SUB_KEY_HERE>'
     });
 	
-	A set of dummy data awould get publish in 5 seconds interval to pubnub channel to simulate the visualization.
+	A set of dummy data would get published in 5 seconds interval to pubnub channel to simulate the visualization.
